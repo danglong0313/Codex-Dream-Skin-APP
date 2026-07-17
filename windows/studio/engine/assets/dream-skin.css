@@ -589,12 +589,12 @@ html.codex-dream-skin aside.app-shell-left-panel .dream-workspace-original {
   text-shadow: 0 1px white, 0 2px 7px rgba(40, 182, 194, .16) !important;
 }
 html.codex-dream-skin .dream-home > div:first-child > div:first-child {
-  flex-basis: clamp(520px, 64vh, 580px) !important;
-  min-height: clamp(520px, 64vh, 580px) !important;
+  flex-basis: clamp(480px, 54vh, 500px) !important;
+  min-height: clamp(480px, 54vh, 500px) !important;
 }
 html.codex-dream-skin .dream-home > div:first-child > div:first-child > div:first-child {
-  height: clamp(500px, 60vh, 540px) !important;
-  min-height: clamp(500px, 60vh, 540px) !important;
+  height: clamp(440px, 50vh, 470px) !important;
+  min-height: clamp(440px, 50vh, 470px) !important;
 }
 html.codex-dream-skin .dream-home .group\/home-suggestions {
   position: relative !important;
