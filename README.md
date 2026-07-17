@@ -16,7 +16,41 @@
 > [!WARNING]
 > 当前版本为 `v0.1.0-preview.1` 测试版，只建议用于体验和反馈。Codex 更新后页面结构可能变化，应用前请保存尚未发送的输入。
 
-![Miku Aqua 主题效果预览](windows/studio/themes/miku-aqua/preview.jpg)
+## 真实界面截图
+
+以下画面均来自 Windows 上实际运行的 Codex 与 Codex Dream Skin Studio，不是设计稿或合成预览图。
+
+### Codex 工作区主页
+
+![应用 Miku Aqua 主题后的 Codex 工作区真实截图](assets/screenshots/codex-miku-workspace.png)
+
+### Chat / Work 双模式
+
+<table>
+  <tr>
+    <td width="50%" align="center"><strong>Chat 首页</strong></td>
+    <td width="50%" align="center"><strong>Work 首页</strong></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/codex-chat-mode.png" alt="Miku Aqua Chat 首页真实截图"></td>
+    <td><img src="assets/screenshots/codex-work-mode.png" alt="Miku Aqua Work 首页真实截图"></td>
+  </tr>
+</table>
+
+### Studio 主题画廊
+
+![Codex Dream Skin Studio 主题画廊真实截图](assets/screenshots/studio-gallery.png)
+
+<table>
+  <tr>
+    <td width="50%" align="center"><strong>当前主题与运行状态</strong></td>
+    <td width="50%" align="center"><strong>启动、验证与恢复</strong></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/studio-current-theme.png" alt="Studio 当前主题真实截图"></td>
+    <td><img src="assets/screenshots/studio-launch-restore.png" alt="Studio 启动与恢复真实截图"></td>
+  </tr>
+</table>
 
 ## 这是做什么的
 
