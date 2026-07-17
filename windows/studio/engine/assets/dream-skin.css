@@ -589,12 +589,12 @@ html.codex-dream-skin aside.app-shell-left-panel .dream-workspace-original {
   text-shadow: 0 1px white, 0 2px 7px rgba(40, 182, 194, .16) !important;
 }
 html.codex-dream-skin .dream-home > div:first-child > div:first-child {
-  flex-basis: 355px !important;
-  min-height: 355px !important;
+  flex-basis: clamp(520px, 64vh, 580px) !important;
+  min-height: clamp(520px, 64vh, 580px) !important;
 }
 html.codex-dream-skin .dream-home > div:first-child > div:first-child > div:first-child {
-  height: 400px !important;
-  min-height: 400px !important;
+  height: clamp(500px, 60vh, 540px) !important;
+  min-height: clamp(500px, 60vh, 540px) !important;
 }
 html.codex-dream-skin .dream-home .group\/home-suggestions {
   position: relative !important;
@@ -882,7 +882,12 @@ html.codex-dream-skin .dream-start-screen::before {
 }
 
 html.codex-dream-skin main.dream-work-start .dream-start-screen::before {
-  height: 620px;
+  height: clamp(700px, 82vh, 760px);
+}
+
+html.codex-dream-skin main.dream-work-start .dream-start-screen {
+  min-height: clamp(730px, 86vh, 800px) !important;
+  padding-bottom: 54px !important;
 }
 
 html.codex-dream-skin .dream-start-screen::after {
