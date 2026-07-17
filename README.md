@@ -22,7 +22,7 @@
 
 ### Codex 工作区主页
 
-![应用 Miku Aqua 主题后的 Codex 工作区真实截图](assets/screenshots/codex-miku-workspace.png)
+![应用 Miku Aqua 主题后的 Codex 工作区真实截图](docs/image/3.png)
 
 ### Chat / Work 双模式
 
@@ -32,8 +32,8 @@
     <td width="50%" align="center"><strong>Work 首页</strong></td>
   </tr>
   <tr>
-    <td><img src="assets/screenshots/codex-chat-mode.png" alt="Miku Aqua Chat 首页真实截图"></td>
-    <td><img src="assets/screenshots/codex-work-mode.png" alt="Miku Aqua Work 首页真实截图"></td>
+    <td><img src="docs/image/1.png" alt="Miku Aqua Chat 首页真实截图"></td>
+    <td><img src="docs/image/2.png" alt="Miku Aqua Work 首页真实截图"></td>
   </tr>
 </table>
 
