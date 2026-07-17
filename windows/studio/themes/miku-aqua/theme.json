@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "id": "miku-aqua",
+  "name": "Miku Aqua 01",
+  "author": "Codex Dream Skin Studio",
+  "version": "1.0.0",
+  "variant": "miku-aqua",
+  "preview": "preview.jpg",
+  "image": "background.png",
+  "appearance": "light",
+  "art": {
+    "focusX": 0.76,
+    "focusY": 0.42,
+    "safeArea": "left",
+    "taskMode": "ambient"
+  },
+  "palette": {
+    "accent": "#12BCCA",
+    "secondary": "#E985C9",
+    "surface": "#F5FDFF",
+    "text": "#174B61"
+  }
+}

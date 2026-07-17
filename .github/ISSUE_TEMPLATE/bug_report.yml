@@ -1,0 +1,92 @@
+name: "Bug report / 缺陷反馈"
+description: "Studio 启动、应用、布局、验证或恢复出现问题"
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请勿粘贴 API Key、`auth.json`、令牌、私人对话或未脱敏的个人路径。
+        本项目只通过本机回环 CDP 换肤，不修改 WindowsApps、`app.asar` 或官方签名。
+
+  - type: input
+    id: windows_version
+    attributes:
+      label: Windows 版本
+      placeholder: "Windows 11 24H2"
+    validations:
+      required: true
+
+  - type: input
+    id: codex_version
+    attributes:
+      label: Codex 桌面端版本
+      placeholder: "例如 26.715.2305.0"
+    validations:
+      required: true
+
+  - type: input
+    id: app_version
+    attributes:
+      label: Dream Skin APP 版本
+      placeholder: "v0.1.0-preview.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 问题类型
+      options:
+        - Studio 无法启动
+        - 应用主题失败
+        - 一直显示处理中
+        - 页面布局或导航异常
+        - Codex 宠物背景异常
+        - 验证失败
+        - 恢复官方失败
+        - Codex 更新后失效
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开 Studio
+        2. 点击……
+        3. 出现……
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志或截图
+      description: "只粘贴相关片段并删除隐私信息；日志位于 `%LOCALAPPDATA%\\CodexDreamSkin`。"
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 确认
+      options:
+        - label: 我没有提交密钥、令牌或私人对话
+          required: true
+        - label: 我使用的是 Microsoft Store 官方 Codex
+          required: true

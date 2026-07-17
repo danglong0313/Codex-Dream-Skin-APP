@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "themes": [
+    {
+      "id": "miku-aqua",
+      "path": "miku-aqua/theme.json",
+      "featured": true
+    }
+  ]
+}
